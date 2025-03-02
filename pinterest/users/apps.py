@@ -3,4 +3,4 @@ from django.apps import AppConfig
 
 class PintConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'pint'
+    name = 'users'

@@ -5,12 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="389ca9b2-2f45-44a5-938f-7d181de82950" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Pinterest_Diploma.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pinterest_Diploma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinterest/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinterest/media/images/Снимок_экрана_2025-02-12_в_17.46.32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinterest/media/images/Снимок_экрана_2025-02-12_в_19.04.54.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinterest/pinterest/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinterest/pinterest/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinterest/pinterest/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinterest/pinterest/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinterest/templates/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinterest/users/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinterest/users/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinterest/users/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinterest/users/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinterest/users/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinterest/users/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinterest/pint/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/pinterest/users/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinterest/pint/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/pinterest/users/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinterest/pint/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pinterest/users/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinterest/pinterest/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pinterest/pinterest/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +41,20 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Efirkefir&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Efirkefir/Pinterest_Diploma.git&quot;,
+    &quot;accountId&quot;: &quot;85f28c41-53b2-4248-b585-527222a65681&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -48,6 +78,11 @@
       </set>
     </attachedChunks>
   </component>
+  <component name="ShelveChangesManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -70,7 +105,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="001" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
