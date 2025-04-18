@@ -1,0 +1,18 @@
+{% extends 'images/base.html' %}
+
+{% block content %}
+    <h1>Профиль пользователя</h1>
+    <p>Имя пользователя: {{ request.user.username }}</p>
+    <p>Email: {{ request.user.email }}</p>
+    <p>Список загруженных изображений:</p>
+    <ul>
+        {% for image in request.user.images.all %}
+            <li>
+                <img src="{{ image.file.url }}" alt=" {{ image.description }}" width="200">
+                <br>
+                {{ image.description }}
+        {% empty %}
+            <li>Изображений нет.</li>
+        {% endfor %}
+    </ul>
+{% endblock %}

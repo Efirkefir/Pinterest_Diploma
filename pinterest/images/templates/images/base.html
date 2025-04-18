@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+{% load static %}
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея изображений</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="{% url 'image_list' %}">Список изображений</a></li>
+                <li><a href="{% url 'upload_image' %}">Загрузить изображение</a></li>
+                <li><a href="{% url 'login' %}">Войти</a></li>
+                <li><a href="{% url 'register' %}">Зарегистрироваться</a></li>
+                {% if request.user.is_authenticated %}
+                <li><a href="{% url 'profile' %}">Профиль</a></li>
+                    <form method="post" action="{% url 'logout' %}">{% csrf_token %}
+                    <button type="submit">Выйти</button>
+                    </form>
+
+                {% endif %}
+            </ul>
+        </nav>
+    </header>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+{% extends 'images/base.html' %}
+
+{% block content %}
+    <h1>Список изображений</h1>
+    {% for image in images %}
+        <div>
+            <img src="{{ image.file.url }}" alt="{{ image.description }}" width="200">
+            <p>{{ image.description }}</p>
+            <a href="{% url 'edit_image' image.pk %}">Редактировать</a>
+            <a href="{% url 'delete_image' image.pk %}">Удалить</a>
+        </div>
+    {% endfor %}
+{% endblock %}
